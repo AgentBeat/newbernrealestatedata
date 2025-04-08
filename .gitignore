@@ -1,38 +1,32 @@
-# dependencies
+# Dependencies
 /node_modules
+/webapp/node_modules
 /.pnp
 .pnp.js
 
-# testing
-/coverage
-
-# next.js
+# Next.js build output
 /.next/
+/webapp/.next/
 /out/
 
-# production
+# Production build
 /build
 
-# misc
-.DS_Store
-*.pem
+# SQLite database files (if not meant to be committed)
+*.db
+*.db-journal
 
-# debug
+# Debug logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# local env files
+# Local environment files
 .env*.local
 .env
 
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
-
-# sqlite database - uncomment if you don't want to include the database in the repo
-# *.db
-node_modules
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo 
