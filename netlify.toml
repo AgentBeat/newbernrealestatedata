@@ -5,3 +5,12 @@
 
 [build.environment]
   NODE_VERSION = "18"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# These redirects ensure that all routes work properly
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
