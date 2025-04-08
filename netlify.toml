@@ -1,6 +1,6 @@
 [build]
   base = "webapp"
-  command = "npm run build"
+  command = "cp ../New\\ Bern\\ Data.db . && npm run build"
   publish = ".next"
 
 [build.environment]
