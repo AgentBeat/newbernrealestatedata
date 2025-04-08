@@ -1,0 +1,12 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/api/volume": "pages/api/volume.js",
+  "/api/listings": "pages/api/listings.js",
+  "/api/dom": "pages/api/dom.js",
+  "/api/prices": "pages/api/prices.js",
+  "/api/inventory": "pages/api/inventory.js",
+  "/api/ratio": "pages/api/ratio.js"
+}

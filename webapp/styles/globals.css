@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #0062cc;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold;
+}
+
+.btn {
+  @apply px-4 py-2 rounded font-medium;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-md p-4;
+}
+
+.tab-active {
+  @apply border-b-2 border-blue-600 text-blue-600 font-medium;
+}
+
+.tab {
+  @apply px-4 py-2 cursor-pointer;
+} 
